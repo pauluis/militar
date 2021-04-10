@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <title>EJERCITO NACIONAL</title>
+</head>
+<body>
+    
+        <header class="bg_animate">
+            <div class="header_nav">
+                <div class="contenedor">
+                    <h1></h1><br/>
+                    <h1></h1><br/>
+                    &nbsp;&nbsp;
+                    <center><h1><p style="color:red;background: white;
+                        font-family: Georgia, serif;
+                        font-size: 40px;
+                        letter-spacing: 0;
+                        text-shadow: 1px 1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;">EJERCITO NACIONAL DE COLOMBIA</p></h1></center><br><br>
+                        
+                    <nav>
+                             &nbsp;&nbsp;     <a href="p.html"> Principio y valores</a>
+                        <a href="vm.html">Mision y vision</a>
+                        <a href="entrar.html">Entrar</a>
+                         
+                    </nav>
+                    
+                </div>
+            </div><br><br><br><br><br>
+            <img src="imagenes/header.jfif" alt="header" width="1900" height="600">
+            
+</body>
+</html>
