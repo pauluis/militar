@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/cabecera.css">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link rel="shorcut icon" type="image/x-icon" href="imagenes/logo.png">
+</head>
+<style>
+    body{
+        background-image: url(imagenes/fondo.jfif);
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+
+    }
+</style>
+
+<body>
+   <form action="validar.php" method="post">
+   <h1 class="animate__animated animate__backInLeft">INGRESAR ID Y CONTRASEÑA</h1>
+   <p>Id de administradpor <input type="text" placeholder="ingrese Id de administrador" name="id"></p>
+   <p>correo <input type="text" placeholder="ingrese su correo" name="correo"></p>
+   <p>Contraseña <input type="password" placeholder="ingrese su contraseña" name="contraseña"></p>
+   <input type="submit" value="Ingresar">
+   <br>
+   <a href="index.html" style="color: white;">ATRAS</a>
+   
+   </form> 
+</body>
+</html>
